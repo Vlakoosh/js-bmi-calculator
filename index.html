@@ -8,30 +8,33 @@
 
 </head>
 <body>
-    <form>
-        <div class="height-button-container">
-            <input type="radio" name="height-units" id="radioHeightCentimeters">
-            <label for="radioHeightCentimeters">cm</label>
+    <div class="form-container">
+        <form>
+            <div class="height-button-container">
+                <input type="radio" name="height-units" id="radioHeightCm">
+                <label for="radioHeightCm">cm</label>
 
-            <input type="radio" name="height-units" id="radioHeightFeet">
-            <label for="radioHeightFeet">ft</label>
-        </div>
+                <input type="radio" name="height-units" id="radioHeightFt">
+                <label for="radioHeightFt">ft</label>
+            </div>
 
-        <div class="container-height">
-            <input type="number" name="" id="height" placeholder="height (cm)">
-        </div>
+            <div class="container-height">
+                <input type="number" name="" id="height" placeholder="height (cm)">
+            </div>
 
-        <div class="weight-button-container">
-            <input type="radio" name="height-units" id="radioWeightKg">
-            <label for="radioWeightKg">kg</label>
+            <div class="weight-button-container">
+                <input type="radio" name="height-units" id="radioWeightKg">
+                <label for="radioWeightKg">kg</label>
 
-            <input type="radio" name="height-units" id="radioWeightLbs">
-            <label for="radioWeightLbs">lbs</label>
-        </div>
+                <input type="radio" name="height-units" id="radioWeightLbs">
+                <label for="radioWeightLbs">lbs</label>
+            </div>
 
-        <input type="number" name="" id="weight" placeholder="weight">
-
+            <input type="number" name="" id="weight" placeholder="weight">
+        </form>
         <button id="submitButton">Submit</button>
-    </form>
+        <h1 class="result-text">BMI: </h1>
+    </div>
+
 </body>
 </html>
